@@ -53,4 +53,15 @@ php artisan serve
 - POST  ```/api/auth/logout```
 
   (Utilizar token Bearer en rutas protegidas)
-  
+
+## Endpoints principales
+
+- GET  ```/api/tareas``` → Listar tareas
+
+- POST  ```/api/tareas``` → Crear tarea 
+
+- GET  ```/api/tareas/{id}``` → Ver detalle
+
+- PUT  ```/api/tareas/{id}``` → Actualizar 
+
+- DELETE  ```/api/tareas/{id}``` → Eliminar 
