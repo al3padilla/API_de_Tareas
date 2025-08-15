@@ -51,5 +51,6 @@ php artisan serve
 
 3. Cerrar sesión:
 - POST  ```/api/auth/logout```
+
   (Utilizar token Bearer en rutas protegidas)
   
