@@ -28,6 +28,7 @@ composer install
 cp .env.example .env
 ```
 (Editar ```.env``` con tus credenciales de MySQL)
+
 5. Generar la clave de la aplicación:
 ```
 php artisan key:generate
