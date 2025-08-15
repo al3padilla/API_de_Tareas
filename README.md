@@ -41,3 +41,15 @@ php artisan migrate --seed
 ```
 php artisan serve
 ```
+
+## Autenticación con Sanctum
+1. Registrar usuario:
+- POST  ```/api/auth/register```
+
+2. Iniciar sesión:
+- POST  ```/api/auth/login```
+
+3. Cerrar sesión:
+- POST  ```/api/auth/logout```
+  (Utilizar token Bearer en rutas protegidas)
+  
